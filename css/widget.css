@@ -1,0 +1,156 @@
+@charset "utf-8";
+ * {
+	padding: 0;
+	margin: 0;
+}
+.weather-forecast {
+	min-width: 500px;
+	max-width: 800px;
+}
+body {
+	padding: 0 2em;
+	font-family: Montserrat, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	color: #444;
+	background: #eee;
+}
+p {
+	width: 841px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 3rem;
+	color: #E8520C;
+	text-shadow: 2px 2px 2px #767474;
+}
+th {
+	background: url(http://jackrugile.com/images/misc/noise-diagonal.png), linear-gradient(#777, #444);
+	border-left: 1px solid #555;
+	border-right: 1px solid #777;
+	border-top: 1px solid #555;
+	border-bottom: 1px solid #333;
+	box-shadow: inset 0 1px 0 #999;
+	color: #faf278;
+	font-weight: bold;
+	padding: 10px 15px;
+	position: relative;
+	text-shadow: 0 1px 0 #000;
+}
+td {
+	
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	box-shadow: inset 1px -1px 1px 1px #fff;
+}
+tr {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-color: lighten(#34495E, 10%);
+}
+strong {
+	font-weight: bold;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 1.2rem;
+}
+.first {
+	font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif";
+	font-size: 1.2rem;
+	background: #FCBA35 url(http://jackrugile.com/images/misc/noise-diagonal.png);
+	color:black;
+	text-shadow: 0 1px 0 #fff;
+}
+.second:nth-child(even) {
+	font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+	background: #fefdec url(http://jackrugile.com/images/misc/noise-diagonal.png);
+	color: black;
+	text-shadow: 0 2px 0 #fff;
+}
+.second:nth-child(odd) {
+	font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+	background: #fafafa url(http://jackrugile.com/images/misc/noise-diagonal.png);
+	color: black;
+	text-shadow: 0 2px 0 white;
+}
+
+.clear-day {
+	background-image: url('../img/clear-day.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.partly-cloudy-day {
+	background-image: url('../img/partly-cloudy-day.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.clear-night {
+	background-image: url('../img/clear-night.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.partly-cloudy-night {
+	background-image: url('../img/partly-cloudy-night.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.wind {
+	background-image: url('../img/wind.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.rain {
+	background-image: url('../img/rain.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.fog {
+	background-image: url('../img/fog.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.snow {
+	background-image: url('../img/snow.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.sleet {
+	background-image: url('../img/sleet.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.hail {
+	background-image: url('../img/hail.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.thunderstorm {
+	background-image: url('../img/thunderstorm.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.tornado {
+	background-image: url('../img/tornado.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.cloudy {
+	background-image: url('../img/cloudy.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
